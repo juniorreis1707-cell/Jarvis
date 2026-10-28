@@ -1,0 +1,162 @@
+/* Estilo visual do Jarvis: painel HUD holográfico sci-fi. */
+
+.hud-button {
+    -fx-background-color: #0d1a24;
+    -fx-text-fill: #1fd6ff;
+    -fx-font-family: 'Consolas';
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-border-color: #1fd6ff88;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-padding: 9 18 9 18;
+}
+.hud-button:hover {
+    -fx-background-color: #123240;
+    -fx-border-color: #1fd6ff;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, #1fd6ffaa, 14, 0.3, 0, 0);
+}
+.hud-button:pressed {
+    -fx-background-color: #1fd6ff33;
+}
+.hud-button:disabled {
+    -fx-opacity: 0.4;
+    -fx-cursor: default;
+}
+
+.hud-field {
+    -fx-background-color: #0d1a24;
+    -fx-text-fill: #cdeeff;
+    -fx-prompt-text-fill: #4d7a8c;
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 13px;
+    -fx-border-color: #1fd6ff55;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 9;
+}
+.hud-field:focused {
+    -fx-border-color: #1fd6ff;
+    -fx-effect: dropshadow(gaussian, #1fd6ff77, 10, 0.3, 0, 0);
+}
+
+.chat-scroll, .chat-scroll .viewport {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.chat-scroll .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 10;
+}
+.chat-scroll .scroll-bar:vertical .thumb {
+    -fx-background-color: #1fd6ff55;
+    -fx-background-radius: 6;
+}
+.chat-scroll .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+.chat-scroll .increment-button, .chat-scroll .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+
+.bubble-user {
+    -fx-background-color: rgba(18,60,120,0.35);
+    -fx-background-radius: 12 12 2 12;
+    -fx-border-color: #4f9fd6aa;
+    -fx-border-width: 1;
+    -fx-border-radius: 12 12 2 12;
+    -fx-text-fill: #d7f2ff;
+}
+.bubble-jarvis {
+    -fx-background-color: rgba(10,50,100,0.42);
+    -fx-background-radius: 12 12 12 2;
+    -fx-border-color: #4fd0ffcc;
+    -fx-border-width: 1;
+    -fx-border-radius: 12 12 12 2;
+    -fx-text-fill: #eafcff;
+    -fx-effect: dropshadow(gaussian, #4fd0ff66, 12, 0.25, 0, 0);
+}
+.bubble-label {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 13px;
+}
+.bubble-tag {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 10px;
+    -fx-letter-spacing: 1.5px;
+    -fx-font-weight: bold;
+}
+.tag-user {
+    -fx-text-fill: #6fb8d6;
+}
+.tag-jarvis {
+    -fx-text-fill: #1fd6ff;
+}
+
+.system-line {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 11px;
+    -fx-font-style: italic;
+    -fx-text-fill: #4d7a8c;
+}
+
+.hud-title {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 6px;
+    -fx-text-fill: #eafcff;
+    -fx-effect: dropshadow(gaussian, #1fd6ffaa, 18, 0.45, 0, 0);
+}
+
+.hud-clock {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 15px;
+    -fx-letter-spacing: 2px;
+    -fx-text-fill: #6fb8d6;
+}
+
+/* --- Painel de leitura biométrica + portal com webcam --- */
+.hud-scanpanel {
+    -fx-background-color: transparent;
+    -fx-padding: 6 26 6 26;
+}
+.hud-category {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 9px;
+    -fx-letter-spacing: 2px;
+    -fx-text-fill: #4d7a8c;
+}
+.hud-card-title {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #eafcff;
+    -fx-effect: dropshadow(gaussian, #1fd6ff88, 10, 0.3, 0, 0);
+}
+.hud-card-subtitle {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 11px;
+    -fx-text-fill: #7fb6cc;
+}
+.hud-progress-track {
+    -fx-background-color: #1fd6ff22;
+}
+.hud-progress-fill {
+    -fx-background-color: #1fd6ff;
+    -fx-effect: dropshadow(gaussian, #1fd6ffaa, 6, 0.4, 0, 0);
+}
+.hud-card-icon {
+    -fx-font-size: 64px;
+}
+.hud-scan-label {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 9px;
+    -fx-letter-spacing: 3px;
+    -fx-text-fill: #6fb8d6;
+}

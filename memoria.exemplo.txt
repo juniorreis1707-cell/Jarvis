@@ -1,0 +1,3 @@
+- O usuário deve ser chamado de chefe
+- O usuário quer reservar 30 minutos por dia para programar/estudar programação.
+- Apps favoritos do usuário: IntelliJ IDEA, VS Code e Steam.

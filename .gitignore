@@ -1,0 +1,39 @@
+### Maven ###
+target/
+dependency-reduced-pom.xml
+!.mvn/wrapper/maven-wrapper.jar
+
+### Dados pessoais do Jarvis (gerados em uso) ###
+memoria.txt
+notas.txt
+
+### Modelos e binários grandes (baixar à parte, veja o README) ###
+vosk-model/
+vosk-model-pequeno/
+piper/
+*.wav
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### SO ###
+.DS_Store
+Thumbs.db
+
+### Segredos ###
+.env
