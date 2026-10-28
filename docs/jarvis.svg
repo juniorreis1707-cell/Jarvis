@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="832" viewBox="0 0 1280 832" font-family="Consolas, 'Cascadia Mono', 'DejaVu Sans Mono', Menlo, monospace">
+<defs>
+<radialGradient id="bg" gradientUnits="userSpaceOnUse" cx="640.0" cy="304.0" r="1024.0">
+  <stop offset="0" stop-color="#1450b4"/><stop offset="0.45" stop-color="#0b2a6e"/><stop offset="1" stop-color="#040a1f"/></radialGradient>
+<linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#5cc8ff" stop-opacity="0"/><stop offset="0.42" stop-color="#5cc8ff" stop-opacity="0.16"/><stop offset="1" stop-color="#5cc8ff" stop-opacity="0"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#4fd0ff" stop-opacity="0"/><stop offset="0.5" stop-color="#4fd0ff" stop-opacity="0.09"/><stop offset="1" stop-color="#4fd0ff" stop-opacity="0"/></linearGradient>
+<radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#ffffff"/>
+  <stop offset="0.35" stop-color="#2abdff"><animate attributeName="stop-color" dur="16.0s" repeatCount="indefinite" values="#2abdff;#2abdff;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#2abdff;#2abdff" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/></stop>
+  <stop offset="1" stop-color="#145978"><animate attributeName="stop-color" dur="16.0s" repeatCount="indefinite" values="#145978;#145978;#00707d;#00707d;#58427d;#58427d;#007d4d;#007d4d;#58427d;#58427d;#007d4d;#007d4d;#145978;#145978" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/></stop>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="glowBig" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="textGlow" x="-20%" y="-60%" width="140%" height="220%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feFlood flood-color="#1fd6ff" flood-opacity="0.75"/>
+  <feComposite in2="b" operator="in" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="chatClip"><rect x="20" y="576" width="1240" height="154"/></clipPath>
+<clipPath id="scene"><rect x="0" y="32" width="1280" height="800"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1280" height="32" fill="#202020"/>
+<text x="14" y="21" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#ffffff">JARVIS</text>
+<text x="1257" y="21" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#ffffff">✕</text>
+<text x="1211" y="21" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#ffffff">❐</text>
+<text x="1165" y="21" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#ffffff">—</text>
+<g clip-path="url(#scene)">
+<g transform="translate(0,32)">
+<rect width="1280" height="800" fill="url(#bg)"/>
+<rect x="0" y="366.0" width="1280" height="120" fill="url(#horizon)"/>
+<line x1="0" y1="417.5" x2="1280" y2="417.5" stroke="#6fd0ff" stroke-opacity="0.064"/>
+<line x1="0" y1="422.0" x2="1280" y2="422.0" stroke="#6fd0ff" stroke-opacity="0.077"/>
+<line x1="0" y1="429.5" x2="1280" y2="429.5" stroke="#6fd0ff" stroke-opacity="0.091"/>
+<line x1="0" y1="440.0" x2="1280" y2="440.0" stroke="#6fd0ff" stroke-opacity="0.105"/>
+<line x1="0" y1="453.5" x2="1280" y2="453.5" stroke="#6fd0ff" stroke-opacity="0.119"/>
+<line x1="0" y1="470.0" x2="1280" y2="470.0" stroke="#6fd0ff" stroke-opacity="0.133"/>
+<line x1="0" y1="489.5" x2="1280" y2="489.5" stroke="#6fd0ff" stroke-opacity="0.146"/>
+<line x1="0" y1="512.0" x2="1280" y2="512.0" stroke="#6fd0ff" stroke-opacity="0.160"/>
+<line x1="0" y1="537.5" x2="1280" y2="537.5" stroke="#6fd0ff" stroke-opacity="0.174"/>
+<line x1="0" y1="566.0" x2="1280" y2="566.0" stroke="#6fd0ff" stroke-opacity="0.188"/>
+<line x1="0" y1="597.5" x2="1280" y2="597.5" stroke="#6fd0ff" stroke-opacity="0.201"/>
+<line x1="0" y1="632.0" x2="1280" y2="632.0" stroke="#6fd0ff" stroke-opacity="0.215"/>
+<line x1="0" y1="669.5" x2="1280" y2="669.5" stroke="#6fd0ff" stroke-opacity="0.229"/>
+<line x1="0" y1="710.0" x2="1280" y2="710.0" stroke="#6fd0ff" stroke-opacity="0.242"/>
+<line x1="0" y1="753.5" x2="1280" y2="753.5" stroke="#6fd0ff" stroke-opacity="0.256"/>
+<line x1="0" y1="800.0" x2="1280" y2="800.0" stroke="#6fd0ff" stroke-opacity="0.270"/>
+<line x1="471.0" y1="416.0" x2="-1472.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="478.7" y1="416.0" x2="-1376.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="486.4" y1="416.0" x2="-1280.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="494.1" y1="416.0" x2="-1184.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="501.8" y1="416.0" x2="-1088.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="509.4" y1="416.0" x2="-992.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="517.1" y1="416.0" x2="-896.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="524.8" y1="416.0" x2="-800.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="532.5" y1="416.0" x2="-704.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="540.2" y1="416.0" x2="-608.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="547.8" y1="416.0" x2="-512.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="555.5" y1="416.0" x2="-416.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="563.2" y1="416.0" x2="-320.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="570.9" y1="416.0" x2="-224.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="578.6" y1="416.0" x2="-128.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="586.2" y1="416.0" x2="-32.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="593.9" y1="416.0" x2="64.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="601.6" y1="416.0" x2="160.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="609.3" y1="416.0" x2="256.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="617.0" y1="416.0" x2="352.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="624.6" y1="416.0" x2="448.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="632.3" y1="416.0" x2="544.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="640.0" y1="416.0" x2="640.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="647.7" y1="416.0" x2="736.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="655.4" y1="416.0" x2="832.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="663.0" y1="416.0" x2="928.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="670.7" y1="416.0" x2="1024.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="678.4" y1="416.0" x2="1120.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="686.1" y1="416.0" x2="1216.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="693.8" y1="416.0" x2="1312.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="701.4" y1="416.0" x2="1408.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="709.1" y1="416.0" x2="1504.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="716.8" y1="416.0" x2="1600.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="724.5" y1="416.0" x2="1696.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="732.2" y1="416.0" x2="1792.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="739.8" y1="416.0" x2="1888.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="747.5" y1="416.0" x2="1984.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="755.2" y1="416.0" x2="2080.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="762.9" y1="416.0" x2="2176.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="770.6" y1="416.0" x2="2272.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="778.2" y1="416.0" x2="2368.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="785.9" y1="416.0" x2="2464.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="793.6" y1="416.0" x2="2560.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="801.3" y1="416.0" x2="2656.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<line x1="809.0" y1="416.0" x2="2752.0" y2="800" stroke="#6fd0ff" stroke-opacity="0.17"/>
+<rect x="0" y="0" width="1280" height="150" fill="url(#beam)"><animateTransform attributeName="transform" type="translate" from="0 -150" to="0 950" dur="7s" repeatCount="indefinite"/></rect>
+<text x="34" y="52" font-size="26" font-weight="bold" letter-spacing="6" fill="#eafcff" filter="url(#textGlow)">J . A . R . V . I . S .</text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:00<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0.00000;0.06250"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:01<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.06250;0.12500"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:02<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.12500;0.18750"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:03<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.18750;0.25000"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:04<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.25000;0.31250"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:05<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.31250;0.37500"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:06<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.37500;0.43750"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:07<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.43750;0.50000"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:08<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.50000;0.56250"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:09<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.56250;0.62500"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:10<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.62500;0.68750"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:11<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.68750;0.75000"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:12<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.75000;0.81250"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:13<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.81250;0.87500"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:14<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.87500;0.93750"/></text>
+<text x="1246" y="50" text-anchor="end" font-size="15" letter-spacing="2" fill="#6fb8d6" opacity="0">16:20:15<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.93750;1.00000"/></text>
+<g opacity="1"><animate attributeName="opacity" dur="20.0s" repeatCount="indefinite" values="1;1;1;0;0;1" keyTimes="0.0000;0.0150;0.2350;0.2500;0.9850;1.0000"/><text x="175.0" y="259.5" font-size="9" letter-spacing="2" fill="#4d7a8c">MÓDULO BIOMÉTRICO · DEMO</text><text x="175.0" y="289.5" font-size="22" font-weight="bold" fill="#eafcff" filter="url(#textGlow)">Panorama de saúde</text><text x="175.0" y="313.5" font-size="11" fill="#7fb6cc">Cruzando os sinais mais recentes</text><text x="175.0" y="328.5" font-size="11" fill="#7fb6cc">das suas fontes pessoais.</text><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff" fill-opacity="0.13"/><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff"><animate attributeName="width" values="57.5;230;57.5" dur="4.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></rect><text x="975.0" y="289" text-anchor="middle" font-size="64" fill="#1fd6ff" style="filter:drop-shadow(0 0 10px #1fd6ff)">◎</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="20.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0000;0.2500;0.2650;0.4850;0.5000;1.0000"/><text x="175.0" y="259.5" font-size="9" letter-spacing="2" fill="#4d7a8c">MÓDULO BIOMÉTRICO · DEMO</text><text x="175.0" y="289.5" font-size="22" font-weight="bold" fill="#eafcff" filter="url(#textGlow)">Prontidão fisiológica</text><text x="175.0" y="313.5" font-size="11" fill="#7fb6cc">Estado de recuperação do corpo</text><text x="175.0" y="328.5" font-size="11" fill="#7fb6cc">para o dia.</text><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff" fill-opacity="0.13"/><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff"><animate attributeName="width" values="57.5;230;57.5" dur="4.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></rect><text x="975.0" y="289" text-anchor="middle" font-size="64" fill="#b6ff3c" style="filter:drop-shadow(0 0 10px #b6ff3c)">⚡</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="20.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0000;0.5000;0.5150;0.7350;0.7500;1.0000"/><text x="175.0" y="246.0" font-size="9" letter-spacing="2" fill="#4d7a8c">MÓDULO BIOMÉTRICO · DEMO</text><text x="175.0" y="276.0" font-size="22" font-weight="bold" fill="#eafcff" filter="url(#textGlow)">Oxigênio durante o</text><text x="175.0" y="303.0" font-size="22" font-weight="bold" fill="#eafcff" filter="url(#textGlow)">sono</text><text x="175.0" y="327.0" font-size="11" fill="#7fb6cc">Saturação de oxigênio ao longo</text><text x="175.0" y="342.0" font-size="11" fill="#7fb6cc">da noite.</text><rect x="175.0" y="354.0" width="230" height="3" fill="#1fd6ff" fill-opacity="0.13"/><rect x="175.0" y="354.0" width="230" height="3" fill="#1fd6ff"><animate attributeName="width" values="57.5;230;57.5" dur="4.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></rect><text x="975.0" y="289" text-anchor="middle" font-size="64" fill="#3cf0d0" style="filter:drop-shadow(0 0 10px #3cf0d0)">≋</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="20.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0.0000;0.7500;0.7650;0.9850;1.0000"/><text x="175.0" y="259.5" font-size="9" letter-spacing="2" fill="#4d7a8c">MÓDULO BIOMÉTRICO · DEMO</text><text x="175.0" y="289.5" font-size="22" font-weight="bold" fill="#eafcff" filter="url(#textGlow)">Ciclo de sono</text><text x="175.0" y="313.5" font-size="11" fill="#7fb6cc">Fases do sono registradas na</text><text x="175.0" y="328.5" font-size="11" fill="#7fb6cc">última noite.</text><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff" fill-opacity="0.13"/><rect x="175.0" y="340.5" width="230" height="3" fill="#1fd6ff"><animate attributeName="width" values="57.5;230;57.5" dur="4.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></rect><text x="975.0" y="289" text-anchor="middle" font-size="64" fill="#b388ff" style="filter:drop-shadow(0 0 10px #b388ff)">☾</text></g>
+<g transform="translate(975.0,349)"><g><animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="1.04s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/><text x="0" y="10" text-anchor="middle" font-size="30" fill="#ff3355" style="filter:drop-shadow(0 0 8px #ff3355)">♥</text></g></g>
+<g transform="translate(640.0,297)">
+<polyline points="-185,-161 -185,-185 -161,-185" fill="none" stroke="#1fd6ff" stroke-opacity="0.7" stroke-width="2"/>
+<polyline points="-185,161 -185,185 -161,185" fill="none" stroke="#1fd6ff" stroke-opacity="0.7" stroke-width="2"/>
+<polyline points="185,-161 185,-185 161,-185" fill="none" stroke="#1fd6ff" stroke-opacity="0.7" stroke-width="2"/>
+<polyline points="185,161 185,185 161,185" fill="none" stroke="#1fd6ff" stroke-opacity="0.7" stroke-width="2"/>
+<text x="0" y="-175" text-anchor="middle" font-size="9" letter-spacing="3" fill="#6fb8d6">BIO SCAN · AO VIVO</text>
+<circle r="162.75" fill="none" stroke-width="1.5" stroke-opacity="0.35" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></circle>
+<circle r="142" fill="none" stroke-width="1.5" stroke-opacity="0.6" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="14s" repeatCount="indefinite"/></circle>
+<ellipse rx="150" ry="128" fill="none" stroke-width="1.2" stroke-opacity="0.55" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/><animateTransform attributeName="transform" type="rotate" from="20" to="380" dur="7s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="146" ry="134" fill="none" stroke-width="1.2" stroke-opacity="0.55" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/><animateTransform attributeName="transform" type="rotate" from="75" to="-285" dur="9s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="154" ry="124" fill="none" stroke-width="1.2" stroke-opacity="0.55" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/><animateTransform attributeName="transform" type="rotate" from="130" to="490" dur="12s" repeatCount="indefinite"/></ellipse>
+<g><animateTransform attributeName="transform" type="scale" values="1;1.035;1" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+<circle r="120" fill="#29b6f6" opacity="0.75" filter="url(#glowBig)"><animate attributeName="fill" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/></circle>
+<circle r="120" fill="url(#core)"/>
+<circle r="122" fill="none" stroke-width="2.5" stroke="#29b6f6"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/></circle>
+<circle r="122" fill="none" stroke-width="6" stroke="#29b6f6" opacity="0.6" filter="url(#glow)"><animate attributeName="stroke" dur="16.0s" repeatCount="indefinite" values="#29b6f6;#29b6f6;#00e5ff;#00e5ff;#b388ff;#b388ff;#00ff9d;#00ff9d;#b388ff;#b388ff;#00ff9d;#00ff9d;#29b6f6;#29b6f6" keyTimes="0.00000;0.09375;0.12187;0.21875;0.24688;0.31250;0.34063;0.51875;0.54688;0.58750;0.61562;0.82500;0.85312;1.00000"/></circle>
+</g></g>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="1">SISTEMA OCIOSO<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0.00000;0.09375"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">OUVINDO...<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.09375;0.21875"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">PROCESSANDO...<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.21875;0.31250"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">RESPONDENDO...<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.31250;0.51875"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">PROCESSANDO...<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.51875;0.58750"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">RESPONDENDO...<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.58750;0.82500"/></text>
+<text x="640.0" y="522" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7fdfff" opacity="0">SISTEMA OCIOSO<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.00000;0.82500;1.00000"/></text>
+<circle cx="374.5" cy="549" r="4" fill="#00ff9d" style="filter:drop-shadow(0 0 4px #00ff9d)"/>
+<text x="384.5" y="553" font-size="10" letter-spacing="1" fill="#4d7a8c">RECONHEC. DE VOZ:</text>
+<text x="509.5" y="553" font-size="10" font-weight="bold" letter-spacing="1" fill="#cdeeff">ONLINE</text>
+<circle cx="581.5" cy="549" r="4" fill="#00ff9d" style="filter:drop-shadow(0 0 4px #00ff9d)"/>
+<text x="591.5" y="553" font-size="10" letter-spacing="1" fill="#4d7a8c">IA CLAUDE:</text>
+<text x="667.5" y="553" font-size="10" font-weight="bold" letter-spacing="1" fill="#cdeeff">CONECTADO</text>
+<circle cx="760.5" cy="549" r="4" fill="#1fd6ff" style="filter:drop-shadow(0 0 4px #1fd6ff)"/>
+<text x="770.5" y="553" font-size="10" letter-spacing="1" fill="#4d7a8c">MEMÓRIA:</text>
+<text x="832.5" y="553" font-size="10" font-weight="bold" letter-spacing="1" fill="#cdeeff">8 REGISTROS</text>
+<g clip-path="url(#chatClip)"><g><animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" values="0 -0.0;0 -0.0;0 -37.0;0 -37.0;0 -62.0;0 -62.0;0 -136.0;0 -136.0;0 -136.0;0 -0.0" keyTimes="0.00000;0.32500;0.34375;0.47500;0.49375;0.60000;0.61875;0.96875;0.99938;1.00000"/>
+<g><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0.00000;0.97437;0.99938;1.00000"/><text x="26" y="597" font-size="11" font-style="italic" fill="#4d7a8c">Jarvis online. Pronto para receber comandos.</text></g>
+<g><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0.00000;0.97437;0.99938;1.00000"/><text x="26" y="622" font-size="11" font-style="italic" fill="#4d7a8c">Escuta automática ativada — pode falar a qualquer momento, sem precisar clicar em FALAR.</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.00000;0.20000;0.21563;0.98375;0.99938;1.00000"/><g><animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" values="0 12;0 12;0 0;0 0" keyTimes="0;0.20000;0.21563;1"/><path d="M1084.0,636 H1242.0 Q1254.0,636 1254.0,648 V681 Q1254.0,683 1252.0,683 H1084.0 Q1072.0,683 1072.0,671 V648 Q1072.0,636 1084.0,636 Z" fill="rgb(18,60,120)" fill-opacity="0.35" stroke="#4f9fd6" stroke-opacity="0.67"/><text x="1084.0" y="654" font-size="10" font-weight="bold" letter-spacing="1.5" fill="#6fb8d6">VOCÊ</text><text x="1084.0" y="672" font-size="13" fill="#d7f2ff">abri vê-se com luzes</text></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.00000;0.32500;0.34063;0.98375;0.99938;1.00000"/><g><animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" values="0 12;0 12;0 0;0 0" keyTimes="0;0.32500;0.34063;1"/><path d="M38,693 H614.7 Q626.7,693 626.7,705 V745 Q626.7,757 614.7,757 H28 Q26,757 26,755 V705 Q26,693 38,693 Z" fill="none" stroke="#4fd0ff" stroke-width="3" opacity="0.35" filter="url(#glow)"/><path d="M38,693 H614.7 Q626.7,693 626.7,705 V745 Q626.7,757 614.7,757 H28 Q26,757 26,755 V705 Q26,693 38,693 Z" fill="rgb(10,50,100)" fill-opacity="0.42" stroke="#4fd0ff" stroke-opacity="0.8"/><text x="38" y="711" font-size="10" font-weight="bold" letter-spacing="1.5" fill="#1fd6ff">JARVIS</text><text x="38" y="729" font-size="13" fill="#eafcff">Entendi, chefe — acho que você quer abrir o VS Code, certo? Vou abrir pra</text><text x="38" y="746" font-size="13" fill="#eafcff">você.</text></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.00000;0.47500;0.49062;0.98375;0.99938;1.00000"/><g><animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" values="0 12;0 12;0 0;0 0" keyTimes="0;0.47500;0.49062;1"/><text x="26" y="778" font-size="11" font-style="italic" fill="#4d7a8c">Executando: abrir_aplicativo</text></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.00000;0.60000;0.61562;0.98375;0.99938;1.00000"/><g><animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" values="0 12;0 12;0 0;0 0" keyTimes="0;0.60000;0.61562;1"/><path d="M38,792 H622.6 Q634.6,792 634.6,804 V844 Q634.6,856 622.6,856 H28 Q26,856 26,854 V804 Q26,792 38,792 Z" fill="none" stroke="#4fd0ff" stroke-width="3" opacity="0.35" filter="url(#glow)"/><path d="M38,792 H622.6 Q634.6,792 634.6,804 V844 Q634.6,856 622.6,856 H28 Q26,856 26,854 V804 Q26,792 38,792 Z" fill="rgb(10,50,100)" fill-opacity="0.42" stroke="#4fd0ff" stroke-opacity="0.8"/><text x="38" y="810" font-size="10" font-weight="bold" letter-spacing="1.5" fill="#1fd6ff">JARVIS</text><text x="38" y="828" font-size="13" fill="#eafcff">Pronto! VS Code aberto, chefe. Já aproveita e belisca uns 30 minutinhos de</text><text x="38" y="845" font-size="13" fill="#eafcff">código hoje, hein? 💻😉</text></g></g>
+</g></g>
+<rect x="20" y="744" width="1032" height="36" rx="4" fill="#0d1a24" stroke="#1fd6ff" stroke-opacity="0.33" stroke-width="1.5"/>
+<text x="30" y="767" font-size="13" fill="#4d7a8c">Digite um comando...</text>
+<rect x="31" y="754" width="1.5" height="16" fill="#cdeeff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+<rect x="1062" y="744" width="84" height="36" rx="4" fill="#0d1a24" stroke="#1fd6ff" stroke-opacity="0.53" stroke-width="1.5"/>
+<text x="1104.0" y="767" text-anchor="middle" font-size="13" font-weight="bold" fill="#1fd6ff">ENVIAR</text>
+<rect x="1156" y="744" width="104" height="36" rx="4" fill="#0d1a24" stroke="#1fd6ff" stroke-opacity="0.53" stroke-width="1.5"/>
+<text x="1208.0" y="767" text-anchor="middle" font-size="13" font-weight="bold" fill="#1fd6ff">🎤 FALAR</text>
+<polyline points="14,48 14,14 48,14" fill="none" stroke="#1fd6ff" stroke-opacity="0.55" stroke-width="2"/>
+<polyline points="1266,48 1266,14 1232,14" fill="none" stroke="#1fd6ff" stroke-opacity="0.55" stroke-width="2"/>
+<polyline points="14,752 14,786 48,786" fill="none" stroke="#1fd6ff" stroke-opacity="0.55" stroke-width="2"/>
+<polyline points="1266,752 1266,786 1232,786" fill="none" stroke="#1fd6ff" stroke-opacity="0.55" stroke-width="2"/>
+</g></g></svg>
