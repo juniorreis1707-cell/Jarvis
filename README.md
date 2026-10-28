@@ -5,7 +5,7 @@ Ele ouve o que você fala, entende o pedido com IA e **executa ações de verdad
 
 ![Interface do Jarvis](docs/jarvis.png)
 
-> 🎥 Vídeo dele funcionando: [LinkedIn](#) <!-- troque pelo link do post -->
+> 🎥 Vídeo dele funcionando: [post no LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7521293716712591361/)
 
 ---
 
