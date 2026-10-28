@@ -3,7 +3,7 @@
 Assistente pessoal de voz feito do zero em **Java + JavaFX**, inspirado no Jarvis dos filmes.
 Ele ouve o que você fala, entende o pedido com IA e **executa ações de verdade no computador**: abre programas, pesquisa na web, toca música, controla o volume, guarda lembretes e responde por voz.
 
-![Interface do Jarvis](docs/jarvis.svg)
+![Interface do Jarvis](docs/jarvis.png)
 
 > 🎥 Vídeo dele funcionando: [LinkedIn](#) <!-- troque pelo link do post -->
 
